@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #7393B3;
+}
+
+#tentacles {
+    width: 80px;
+}
+
+.header {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.header-text {
+    font-size: 50px;
+    color: white;
+    margin-left: 15px;
+}
+
+body {
+    color: white;
+}
+
+.section-with-svg {
+    position: relative;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-with-svg h2 {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.section-with-svg p {
+    font-size: 25px;
+}
+
+#stats-section h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.stats-card {
+    background-color: white;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px lightblue;
+}
+
+.svg-divider {
+    position: relative;
+    padding: 60px 20px;
+}
+
+#num-contributions, #total-raised, #num-games {
+    font-size: 50px;
+}
+
+#unfunded-btn,
+#funded-btn,
+#all-btn {
+    background-color: lightblue;
+    color: white;
+    font-size: 18px;
+    padding: 2%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#games-section h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#games-section p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#unfunded-btn:hover,
+#funded-btn:hover,
+#all-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px white;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.game-card {
+    background-color: white;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+.button-container,
+.stats-card,
+.game-card,
+button {
+    color: lightslategray;
+}
