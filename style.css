@@ -2,11 +2,19 @@
 
 body {
     font-family: 'Cabin';
+<<<<<<< HEAD
     background-color: #7393B3;
 }
 
 #tentacles {
     width: 80px;
+=======
+    background-color: #758190;
+}
+
+#tentacles {
+    width: 50px;
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
 }
 
 .header {
@@ -19,6 +27,7 @@ body {
     margin-top: -10px;
 }
 
+<<<<<<< HEAD
 .header-text {
     font-size: 50px;
     color: white;
@@ -63,11 +72,20 @@ body {
 
 .stats-card {
     background-color: white;
+=======
+.stats-container {
+    display: flex;
+}
+
+.stats-card {
+    background-color: #a8b0bc;
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+<<<<<<< HEAD
     cursor: pointer;
 }
 
@@ -79,12 +97,15 @@ body {
 .svg-divider {
     position: relative;
     padding: 60px 20px;
+=======
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
 }
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
 }
 
+<<<<<<< HEAD
 #unfunded-btn,
 #funded-btn,
 #all-btn {
@@ -115,6 +136,8 @@ body {
     box-shadow: 0 0 20px white;
 }
 
+=======
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
 #games-container {
     display: flex;
     flex-wrap: wrap;
@@ -124,11 +147,19 @@ body {
 .game-img {
     width: 100%;
     border-radius: 5px;
+<<<<<<< HEAD
     box-shadow: 0 0 10px white;
 }
 
 .game-card {
     background-color: white;
+=======
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: #FFFFFF;
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -151,6 +182,7 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+<<<<<<< HEAD
 }
 
 .button-container,
@@ -159,3 +191,6 @@ button {
 button {
     color: lightslategray;
 }
+=======
+}
+>>>>>>> bbf4bb72fb0b24535ab3b750c73f49f5ed5fab7d
